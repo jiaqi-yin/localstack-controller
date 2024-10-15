@@ -1,0 +1,10 @@
+apiVersion: localstack.kb.dev/v1
+kind: S3Bucket
+metadata:
+  labels:
+    app.kubernetes.io/name: localstack-controller
+    app.kubernetes.io/managed-by: kustomize
+  name: bucket1
+  namespace: localstack
+spec:
+  region: us-west-1

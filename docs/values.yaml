@@ -1,0 +1,4 @@
+services:
+  - s3
+  - sqs
+  - lambda
